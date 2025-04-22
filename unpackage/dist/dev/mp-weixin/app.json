@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/like/like",
+    "pages/create/create",
+    "pages/mail/mail",
+    "pages/my/my",
+    "pages/enter/enter",
+    "pages/love/love",
+    "pages/mail/reply/reply"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/tabbar/index.png",
+        "selectedIconPath": "/static/tabbar/index1.png",
+        "text": "广场"
+      },
+      {
+        "pagePath": "pages/like/like",
+        "iconPath": "/static/tabbar/like.png",
+        "selectedIconPath": "/static/tabbar/like1.png",
+        "text": "收藏"
+      },
+      {
+        "pagePath": "pages/create/create",
+        "iconPath": "/static/tabbar/create.png",
+        "selectedIconPath": "/static/tabbar/create1.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/mail/mail",
+        "iconPath": "/static/tabbar/mail.png",
+        "selectedIconPath": "/static/tabbar/mail1.png",
+        "text": "私信"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "/static/tabbar/my.png",
+        "selectedIconPath": "/static/tabbar/my1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

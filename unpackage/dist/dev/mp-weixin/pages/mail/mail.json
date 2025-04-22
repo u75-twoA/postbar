@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "navigationBarBackgroundColor": "#F8F8FF",
+  "usingComponents": {
+    "up-icon": "../../uni_modules/uview-plus/components/u-icon/u-icon"
+  }
+}

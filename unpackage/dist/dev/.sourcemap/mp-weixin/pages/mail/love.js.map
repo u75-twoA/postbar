@@ -1,0 +1,1 @@
+{"version":3,"file":"love.js","sources":["../../../tools/HBuilderX/plugins/uniapp-cli-vite/uniPage:/cGFnZXMvbWFpbC9sb3ZlLnZ1ZQ"],"sourcesContent":["import MiniProgramPage from 'D:/文档/HBuilderProjects/postbar/pages/mail/love.vue'\nwx.createPage(MiniProgramPage)"],"names":[],"mappings":";;;;;;;;;AACA,GAAG,WAAW,eAAe;"}

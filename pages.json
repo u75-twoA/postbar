@@ -1,0 +1,106 @@
+{
+	"easycom": {
+		"autoscan": true,
+		// 注意一定要放在custom里，否则无效，https://ask.dcloud.net.cn/question/131175
+		"custom": {
+			"^u--(.*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue",
+			"^up-(.*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue",
+			"^u-([^-].*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue",
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/like/like",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/create/create",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/mail/mail",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#F8F8FF"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#F0FFFF"
+			}
+		},
+		{
+			"path": "pages/enter/enter",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+
+		{
+			"path": "pages/love/love",
+			"style": {
+				"navigationBarTitleText": "点赞"
+			}
+		},
+		{
+			"path": "pages/mail/reply/reply",
+			"style": {
+				"navigationBarTitleText": "回复"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "/static/tabbar/index.png",
+			"selectedIconPath": "/static/tabbar/index1.png",
+			"text": "广场"
+		}, {
+			"pagePath": "pages/like/like",
+			"iconPath": "/static/tabbar/like.png",
+			"selectedIconPath": "/static/tabbar/like1.png",
+			"text": "收藏"
+		}, {
+			"pagePath": "pages/create/create",
+			"iconPath": "/static/tabbar/create.png",
+			"selectedIconPath": "/static/tabbar/create1.png",
+			"text": "发布"
+		}, {
+			"pagePath": "pages/mail/mail",
+			"iconPath": "/static/tabbar/mail.png",
+			"selectedIconPath": "/static/tabbar/mail1.png",
+			"text": "私信"
+		}, {
+			"pagePath": "pages/my/my",
+			"iconPath": "/static/tabbar/my.png",
+			"selectedIconPath": "/static/tabbar/my1.png",
+			"text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

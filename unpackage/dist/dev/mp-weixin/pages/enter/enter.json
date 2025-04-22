@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "up-lazy-load": "../../uni_modules/uview-plus/components/u-lazy-load/u-lazy-load",
+    "up-waterfall": "../../uni_modules/uview-plus/components/u-waterfall/u-waterfall"
+  }
+}

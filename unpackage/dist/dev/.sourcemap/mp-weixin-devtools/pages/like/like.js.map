@@ -1,0 +1,1 @@
+{"version":3,"names":["wx","createPage","_sfc_main"],"sources":["cGFnZXMvbGlrZS9saWtlLnZ1ZQ"],"sourcesContent":["import MiniProgramPage from 'D:/文档/HBuilderProjects/postbar/pages/like/like.vue'\nwx.createPage(MiniProgramPage)"],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AACAA,EAAA,CAAGC,UAAA,CAAWC,SAAe","ignoreList":[]}
